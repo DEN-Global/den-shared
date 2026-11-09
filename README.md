@@ -1,6 +1,6 @@
 # DEN shared frontend and contracts
 
-Shared React components, API/session helper, role workspace modules, Manrope/forest/lime design tokens, QR workflows, and versioned route contracts for Consumer, Manager, Rider, Dispatch and Admin. Warehouse keeps its existing working application; it is not overwritten.
+Shared React components, API/session helper, role workspace modules, Manrope/forest/lime design tokens, QR workflows, and versioned route contracts for Consumer, Manager, Rider, Dispatch and Admin. Manager and Rider include the DEN pet notification companion: it announces new customer orders and available deliveries, with optional foreground speech and opt-in Web Push. Browser and operating-system notification preferences remain in control; the companion cannot override Do Not Disturb. See [pet-companion.md](docs/pet-companion.md). Warehouse keeps its existing working application; it is not overwritten.
 
 `npm ci && npm test` runs the shared API cookie/CSRF/error-contract tests. `contracts/v1.json` records actual implemented routes, payloads, enums and security invariants. It is a practical integration manifest, not a claim that all desired DEN features are implemented.
 
