@@ -47,3 +47,25 @@ html[data-theme="dark"] .pet-alert-card{background:#18231e;color:#e5eee8;border-
 html[data-theme="dark"] .pet-alert-card>header{background:#222e28;border-color:#3a4a42}
 html[data-theme="dark"] .pet-alert-message p{color:#e5eee8}
 html[data-theme="dark"] .pet-voice-toggle,html[data-theme="dark"] .pet-quiet-toggle,html[data-theme="dark"] .pet-icon-button{background:#202d27;color:#e5eee8;border-color:#3a4a42}
+
+/* Login arrival: Pinterest-inspired stagger, keeping DEN's split sign-in layout. */
+.auth-story>.brand{animation:auth-cascade-in .68s cubic-bezier(.2,.75,.25,1) both}
+.auth-story-content .auth-art{animation:auth-art-in .95s cubic-bezier(.2,.75,.25,1) .08s both;transform-origin:50% 70%}
+.auth-story-content h1{animation:auth-cascade-in .7s cubic-bezier(.2,.75,.25,1) .2s both}
+.auth-story-content p{animation:auth-cascade-in .7s cubic-bezier(.2,.75,.25,1) .3s both}
+.auth-story footer{animation:auth-cascade-in .7s cubic-bezier(.2,.75,.25,1) .38s both}
+.auth-inner>.muted:first-child{animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .34s both}
+.auth-inner>h2{animation:auth-cascade-in .62s cubic-bezier(.2,.75,.25,1) .42s both}
+.auth-inner>h2+p{animation:auth-cascade-in .62s cubic-bezier(.2,.75,.25,1) .5s both}
+.auth-inner form{animation:auth-cascade-in .65s cubic-bezier(.2,.75,.25,1) .58s both}
+.auth-inner form>.field:nth-of-type(1){animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .62s both}
+.auth-inner form>.field:nth-of-type(2){animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .7s both}
+.auth-inner form>.field:nth-of-type(3){animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .78s both}
+.auth-inner form>.field:nth-of-type(4){animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .86s both}
+.auth-inner form>.field:nth-of-type(5){animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .94s both}
+.auth-inner form>.field:nth-of-type(6){animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) 1.02s both}
+.auth-inner form>.primary{animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .86s both}
+.auth-inner>.auth-switch{animation:auth-cascade-in .58s cubic-bezier(.2,.75,.25,1) .76s both}
+@keyframes auth-cascade-in{from{opacity:0;transform:translate3d(0,16px,0);filter:blur(3px)}to{opacity:1;transform:translate3d(0,0,0);filter:blur(0)}}
+@keyframes auth-art-in{0%{opacity:0;transform:translate3d(0,22px,0) scale(.94);filter:blur(6px)}65%{opacity:1;filter:blur(0)}100%{opacity:1;transform:translate3d(0,0,0) scale(1);filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){.auth-story>.brand,.auth-story-content .auth-art,.auth-story-content h1,.auth-story-content p,.auth-story footer,.auth-inner>.muted:first-child,.auth-inner>h2,.auth-inner>h2+p,.auth-inner form,.auth-inner form>.field,.auth-inner form>.primary,.auth-inner>.auth-switch{animation:none!important;filter:none!important;transform:none!important;opacity:1!important}}
