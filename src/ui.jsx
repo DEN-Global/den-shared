@@ -2,10 +2,10 @@ import {useEffect,useRef,useState} from 'react';
 import {X,Warehouse} from 'lucide-react';
 export function Brand(){return <div className="brand"><div className="brand-row"><span className="mark" aria-hidden="true"><i/><i/><i/><i/></span><strong>DEN Global</strong></div><small>One network. Every journey.</small></div>;}
 export function Field({label,children,...props}){return <label className="field"><span>{label}</span>{children??<input {...props}/>}</label>;}
-export function Form({onSubmit,children,submit='Save',className=''}){
+export function Form({onSubmit,children,submit='Save',className='',submitDisabled=false}){
  const [busy,setBusy]=useState(false),[error,setError]=useState('');
  return <form className={className} onSubmit={async e=>{e.preventDefault();setBusy(true);setError('');try{await onSubmit(Object.fromEntries(new FormData(e.currentTarget)));}catch(err){setError(err.message);}finally{setBusy(false);}}}>
- {children}{error?<p role="alert" className="error">{error}</p>:null}<button className="primary" disabled={busy} type="submit">{busy?'Saving…':submit}</button></form>;
+ {children}{error?<p role="alert" className="error">{error}</p>:null}<button className="primary" disabled={busy||submitDisabled} type="submit">{busy?'Saving…':submit}</button></form>;
 }
 export function Drawer({title,onClose,children}){
  const ref=useRef();useEffect(()=>{const dialog=ref.current;dialog.showModal();return()=>dialog.close();},[]);
