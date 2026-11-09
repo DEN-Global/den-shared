@@ -1,6 +1,7 @@
 @import './legacy.css' layer(legacy);
 @import './eco-theme.css';
 @import './pet-companion.css';
+@import './app-enhancements.css';
 
 .password-control{position:relative;display:flex;align-items:center}
 .password-control input{width:100%;padding-right:48px}
