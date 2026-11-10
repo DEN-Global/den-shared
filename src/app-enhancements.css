@@ -16,6 +16,9 @@
 .rider-review-evidence p{margin:6px 0;font-size:13px}
 /* Start the sign-in sequence as soon as logout returns; keep controls visible promptly. */
 .auth-story>.brand{animation-duration:.38s}
+.auth-heading-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.auth-heading-row>.muted{margin:0}
+.auth-theme-toggle{flex:none}
 .auth-story-content .auth-art{animation-duration:.5s;animation-delay:0s}
 .auth-story-content h1{animation-duration:.38s;animation-delay:.04s}
 .auth-story-content p{animation-duration:.38s;animation-delay:.09s}
@@ -38,6 +41,21 @@ html[data-theme="dark"] .wallet-access>span{color:#b3c1b9}
 html[data-theme="dark"] .profile-access{background:#25382b;border-color:#425b48;color:#c5e3b7}
 html[data-theme="dark"] .rider-review-evidence{background:#18231e;border-color:#304139}
 html[data-theme="dark"] .rider-plate-proof{background:#111a16;border-color:#394c40}
+html[data-theme="dark"] .auth-layout,html[data-theme="dark"] .auth-form{background:#101815;color:#e9f0ec}
+html[data-theme="dark"] .auth-story{background:#18251e;color:#e9f0ec}
+html[data-theme="dark"] .auth-story .brand,html[data-theme="dark"] .auth-story h1{color:#e9f0ec}
+html[data-theme="dark"] .auth-story p,html[data-theme="dark"] .auth-story footer{color:#b3c1b9}
+html[data-theme="dark"] .auth-story .auth-art{mix-blend-mode:screen;filter:brightness(.8)}
+html[data-theme="dark"] .auth-inner h2,html[data-theme="dark"] .auth-inner .field{color:#e9f0ec}
+html[data-theme="dark"] .auth-inner .muted,html[data-theme="dark"] .auth-inner>.muted{color:#aebdb4}
+html[data-theme="dark"] .auth-inner input,html[data-theme="dark"] .auth-inner textarea,html[data-theme="dark"] .auth-inner select{background:#111a16;color:#e9f0ec;border-color:#3a4a42}
+html[data-theme="dark"] .auth-inner input::placeholder,html[data-theme="dark"] .auth-inner textarea::placeholder{color:#87988e}
+html[data-theme="dark"] .auth-inner .text-button{color:#bce0af}
+html[data-theme="dark"] .auth-inner .notice{background:#203126;color:#cde7bf;border-color:#3a5941}
+html[data-theme="dark"] .auth-inner .error{background:#38231f;color:#ffd0c4;border-color:#65382d}
+html[data-theme="dark"] .password-toggle{color:#b3c1b9}
+html[data-theme="dark"] .password-toggle:hover{background:#202d27;color:#c5e3b7}
+@media(max-width:780px){.auth-heading-row{margin-bottom:8px}}
 @media(max-width:780px){
  .organization-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
  .organization-card{padding:10px;border-radius:17px}
