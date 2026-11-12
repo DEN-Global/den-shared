@@ -20,7 +20,7 @@ const petPrefsKey=userId=>`den.pet-alerts.${userId}`;
 function readPetPrefs(userId){try{return{voice:false,...JSON.parse(localStorage.getItem(petPrefsKey(userId))||'{}')};}catch{return{voice:false};}}
 function PetMascot(){return <img className="pet-mascot" src="/den-pet-icon.jpg" alt="" aria-hidden="true"/>;}
 export function PetCompanion({userId,role}){
- const [settings,setSettings]=useState(()=>readPetPrefs(userId)),[open,setOpen]=useState(true),[alert,setAlert]=useState(null),[browserAlerts,setBrowserAlerts]=useState(false),[quietNote,setQuietNote]=useState(''),[pushEnabled,setPushEnabled]=useState(false),[pushBusy,setPushBusy]=useState(false),[pushNote,setPushNote]=useState('');
+ const [settings,setSettings]=useState(()=>readPetPrefs(userId)),[open,setOpen]=useState(false),[alert,setAlert]=useState(null),[browserAlerts,setBrowserAlerts]=useState(false),[quietNote,setQuietNote]=useState(''),[pushEnabled,setPushEnabled]=useState(false),[pushBusy,setPushBusy]=useState(false),[pushNote,setPushNote]=useState('');
  useEffect(()=>{setSettings(readPetPrefs(userId));},[userId]);
  useEffect(()=>{try{localStorage.setItem(petPrefsKey(userId),JSON.stringify(settings));}catch{}},[settings,userId]);
  useEffect(()=>{let active=true;(async()=>{try{const [server,registration]=await Promise.all([platform('/push/subscriptions'),navigator.serviceWorker?.getRegistration('/')]);const subscription=await registration?.pushManager.getSubscription();if(active)setPushEnabled(Boolean(server.enabled&&subscription));}catch{}})();return()=>{active=false;};},[userId]);
