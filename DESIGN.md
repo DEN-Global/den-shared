@@ -1,64 +1,21 @@
-# DEN Network — visual system
+# DEN Global — Green Community UI
 
-The user's Medusa JF-4 reference is the visual authority, translated to DEN's delivery network and parcels as explicitly selected. Pinterest supports readable logistics hierarchy, clear handoff states and restrained teal material; it does not supply copied imagery or data.
+The user's GreenFuture / Green Energy specification supplied on 13 November 2026 is the current visual reference. Adapt its design to DEN; retain DEN's name, content, products and permissions. Energy services, environmental claims and GreenFuture navigation are not DEN product facts.
 
-## Direction
-Pale aqua-white grounds, deep green ink, bright lime primary actions, teal connections and coral reserved for errors or the illustration playhead. White translucent panels have fine green borders. Use compact tabular monospace for measurements, timestamps and the network diagram; Inter for all task content. Keep the four-square DEN mark.
+## Visual direction
 
-## Composition
-Sign-in pairs an open network scene with a quiet form. The marketplace uses the same scene at a smaller scale. Operational workspaces retain their navigation, tables, forms, maps and permissions. Dense data stays in rows; no invented live telemetry. Mobile uses a compact scene and scrollable navigation without hiding required controls.
+Use an open, balanced split composition, white grounds, generous whitespace and emerald actions. Inter is the UI/body face; Space Grotesk 700 is the display and brand face. Hero headings scale from 38px on mobile to 54px on desktop with a 1.1 line height. Controls use 8–9px corners and panels use 14px corners. Keep DEN's four-square mark and the existing sidebar, mobile navigation and Settings beside Wallet.
 
-## Interaction
-The procedural 3D parcel network has one 25-second playhead, three focus stages, pause, a timeline, orbit drag and a reduced-motion static default. All canvas resources are local. Only the illustration animates continuously; application controls use short transitions. The diagram is explicitly illustrative and does not imply live tracking.
+Light theme: ground/surface #ffffff, ink #15251c, muted #526359, border #7d9686, pale #edf6ef, accent #087c40, primary action #1d6b38 with white text. Dark theme: black-green ground #070f0b, forest surface #11251a, ink #f0f8f2, muted #b7cbbc, border #577b62, pale #1c3c28, accent/action #60e89b with dark text #082a16. Maintain visible field boundaries, keyboard focus and semantic status colors.
 
-## Tokens
-- Ground #f1fbfa; surface #ffffff; ink #103b37; muted #56736d; border #d4e6df.
-- Primary #d7f466 on #103b37; connection #138b78; warning #c45336.
-- Spacing 4/8/12/16/24/32/48/64. Corners 6px controls, 14px panels.
-- Desktop navigation 224px. Main content maximum 1480px. Controls minimum 44px.
-- Dark mode uses #0c201d, #132d27 and #1a3930, retaining lime actions.
+## Hero and media
 
-## Scope and truth
-Apply to consumer, manager, rider, dispatch, admin, warehouse, transport, shipment and pets. Preserve content, API actions and access boundaries. Public email verification and live payments remain unavailable until separately configured. Never render example values as operational facts.
+The supplied source is https://strvid.nyc3.cdn.digitaloceanspaces.com/motionsite/hero_green_energy.mp4 . A local 960px silent loop and poster are served from each workspace. The media is explicitly labeled Community illustration, with a play/pause control. Reduced motion and data saver start still. Pause offscreen and when the document is hidden. The reference's bright media stage is retained in dark mode so the landscape stays clear. There is no full-page photo, statue, spotlight mask, character field or sound.
 
-## Inspiration consulted
-- User-supplied Medusa JF-4 field simulator prompt.
-- https://guide.pinterest.com/design/teal/
-- https://guide.pinterest.com/design/examples-of-visibility-of-system-status/
-- Pinterest browser search: logistics dashboard green ui. Inspected the results and visual hierarchy.
-- https://www.pinterest.com/pin/1134696068652919662/ (Shipment Logistic Dashboard)
-- https://www.pinterest.com/pin/1134696068652742891/ (Carvex Logistics Webapp 2024)
-- Public fetch of Pinterest returned 403; the connected browser search was available. No pins were saved or boards changed.
+Discovery pairs existing DEN copy/actions with the illustrative media in an even split. Sign-in places the same media below the story alongside the account form. Pet care uses the same visual system and illustration. Mobile stacks content without horizontal overflow. Operational pages keep compact tables, forms, permissions, feedback and existing actions.
 
-## Theme consistency — November 12, 2026
-Use the shared pre-paint theme controller and one persisted `den.theme` preference across all nine workspaces. Follow the system theme until the user chooses; synchronize open tabs. Dark surfaces use forest and olive greens with soft green text and lime primary actions. Theme scene backgrounds, lighting, parcel materials, HUD controls, forms, autofill, menus and status states together. Keep QR code backing white for scanning. Respect reduced motion.
+## Product boundaries
 
-## Greenhouse hub and green grading
-The shared network scene uses an original stepped-roof greenhouse hub, inspired by the user's Pinterest green-house/Minecraft search: framed glass bays, planted terraces, a front entry and moss roof tiers. Parcel nodes retain the delivery-network context. The color-grade search guides forest shadows (#081b10), botanical surfaces (#102b19), green glass and lime highlights (#b8ed49). Light mode uses pale warm greens. References reviewed in the connected browser; no third-party pin artwork is embedded.
+Apply across Consumer, Manager, Rider, Dispatch, Admin, Warehouse, Pets, Transport and Shipment. Pet care opens from Settings; role selection remains in Settings and is permanent only after explicit confirmation. Do not silently choose a role. Business Manager access selection remains unconfirmed in this session.
 
-### Natural greenhouse correction
-The user's latest correction supersedes the stepped/voxel roof direction. Use a continuous pitched glass roof, slim neutral metal frames, stone foundation and organic foliage against the retained green scene background. Architecture retains its material colors in either theme.
-
-## Character intro and network sphere
-The user's November 12 screencast is the motion reference: dense character field resolves into identity, followed by a rotating typographic particle sphere. Use a 2.6-second DEN intro once per tab session with Skip, Escape and Replay controls. Reduced-motion users get a static sphere and no automatic intro. The shared sign-in hero uses this sphere; retain the greenhouse under “Explore the greenhouse delivery hub” and on existing pet-care surfaces. Keep green themes throughout.
-
-## Item background correction (supersedes character intro)
-User explicitly rejected letter scrambling, separate sphere, prominent title and greenhouse on sign-in. Shared sign-in now has a nonblocking background of original outline bags, boots, cosmetic kits, lipsticks and parcels. Items gather into DEN GLOBAL periodically, then scatter, on a 16-second cycle. There is no modal intro, replay requirement or sphere. Keep pause/play and a still word formation for reduced motion. Greenhouse remains only on its other existing surfaces, not sign-in.
-
-## Full-page sign-in background and recovery
-The item animation is the full sign-in background, extending behind both columns, with transparent form surroundings and readable field surfaces. Add a Forgot password entry with request/code/new-password states. Use live API readiness to explain unavailable email delivery. Never claim that a reset code was sent when no sender is configured.
-
-The visible background pause/play button was removed at the user's request. Keep the decorative animation unobtrusive and continue honoring the system reduced-motion preference.
-
-## Sharper light theme — November 13
-Light mode uses mint-white ground #f6faf7, forest text #123c2b, secondary text #466052, clear field boundaries #819b8a and deep-green primary actions #175c3b with white labels. Headings use 600 weight. Keep dark palette values unchanged. Render the background canvas at up to 2× device scale and increase its light-theme opacity for definition.
-
-Dark mode uses near-black ground (#080c0a), charcoal green surfaces (#111a15), forest elevated surfaces, and lime actions. This palette applies across all workspaces; light mode remains unchanged.
-
-## AXION mask reveal redesign — 13 November 2026
-The user selected the classical statue from the supplied MotionSite AXION prompt. This supersedes the greenhouse hero and item-letter background. Use the supplied aligned statue images with a feathered emerald spotlight controlled by pointer, touch and keyboard focus. Use Syne display and Plus Jakarta Sans body, self-hosted; pure black with emerald #00ff9d and quiet green-tinted operational surfaces. Retain a readable mint light theme and a black hero stage. Preserve DEN branding, existing copy, all account flows, permissions and settings beside Wallet. Do not add fake system status, social destinations, marketing claims or unsolicited audio. Apply the same system to all nine workspaces. The reveal renders on demand, respects reduced motion and requires no external runtime CDN.
-
-## Fruit-market imagery — 13 November 2026
-User requested the fruit-shop Pinterest search direction in place of the statue. Replaced all active statue references with Josefin’s assorted fruit market photograph: https://unsplash.com/photos/assorted-fruits-on-display-DJWa4FWXDG4 . Pinterest search and pin 368380444545484457 were reviewed for direction; the deployed image comes from the linked Unsplash source. Keep the current layout and spotlight interaction, now revealing a brighter natural-color version of the same aligned photo through CSS. Preserve green accents and dark text fades for legibility.
-
-Dark refinement: black ground #040a07, brighter forest surfaces #10241a, distinct elevated green #1b3c29, readable green borders #4d705b, emerald actions #2bf5a5, and richer natural fruit imagery. Light theme and layout stay unchanged.
+Preserve Supabase email-code registration and its live readiness flags, the separate password-recovery readiness, protected role access, foreground rider GPS and MapLibre/OpenFreeMap. Keep attribution, simulation/stale labels, map consent, stop-sharing controls and map CSP rules. Live payments, real carrier bookings and international trade remain disabled. Never invent orders, GPS positions, ETAs or operating statistics to fill a design.
