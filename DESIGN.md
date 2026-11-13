@@ -49,3 +49,7 @@ User requested removal of light mode. Force dark before first paint regardless o
 ## Demo wallet
 
 Wallet offers simulated deposits, transfers to active DEN accounts by email, and withdrawals without bank details. All actions use review and confirmation, UUID idempotency keys and explicit demo labels. Demo balances and transaction history are separated from other recorded ledger entries by the reserved DEN demo reference prefix. Currencies remain separate; no conversion. Header displays Demo wallet and refreshes after successful operations. Real payments, bank payouts and card collection remain disabled.
+
+## Wallet transition
+
+User removed the demo wallet. Remove simulated actions and balances from UI and API responses, disable all wallet writes until a real provider is integrated, and retain historical demo rows outside recorded balances. Header says Wallet. Provider country and business account are pending user input.
