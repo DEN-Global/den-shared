@@ -35,3 +35,7 @@ The user's enlarged glassmorphism reference calls for stronger depth: translucen
 ## Glass sculpture background
 
 Latest user background reference: https://www.pinterest.com/pin/468304061271034900/ (Jon Kuhn glass art, Habatat Galleries). Locally serve its still poster as glass-art-background.jpg behind every route, replacing the accessories pattern. Preserve the complete sculpture with contain-style height sizing, place it right of center on desktop and center it on mobile. Dark overlay protects light text; ivory overlay supports light mode. Use https://www.pinterest.com/search/pins/?q=glass%20design%20ui%20app for frosted panels and delicate reflective borders, retaining amber brand actions. Cart drawers use stronger glass for readable checkout content.
+
+## Current marketplace background
+
+The latest user reference https://www.pinterest.com/pin/355151120640433252/ supersedes the glass sculpture. Use its locally served still poster marketplace-background.jpg: floating phone and shopping products, illustrative rather than actual DEN inventory. Align to the right on desktop and center on mobile. Warm sepia tint, ivory light overlay and charcoal dark overlay match DEN's amber glass UI. Retain existing layouts, glass surfaces and brand palette.
