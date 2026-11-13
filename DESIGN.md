@@ -17,3 +17,7 @@ The latest user-selected reference is https://www.pinterest.com/pin/935763628849
 Apply across Consumer, Manager, Rider, Dispatch, Admin, Warehouse, Pets, Transport and Shipment. Pet care opens from Settings; role selection remains in Settings and is permanent only after explicit confirmation. Do not silently choose a role. Business Manager access selection remains unconfirmed in this session.
 
 Preserve Supabase email-code registration and its live readiness flags, the separate password-recovery readiness, protected role access, foreground rider GPS and MapLibre/OpenFreeMap. Keep attribution, simulation/stale labels, map consent, stop-sharing controls and map CSP rules. Live payments, real carrier bookings and international trade remain disabled. Never invent orders, GPS positions, ETAs or operating statistics to fill a design.
+
+## Business Manager catalog
+
+Reference: https://www.pinterest.com/pin/1100919071902025873/ . Adapt its image-led shopping catalog to DEN's green identity: compact storefront profile, prominent product search, stock-filter pills with real counts, responsive product-photo cards with price, stock and existing edit action. No invented products, discounts, ratings or sales metrics. Keep registration, approval gating and product editing intact.
