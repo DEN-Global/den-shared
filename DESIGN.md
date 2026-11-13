@@ -25,3 +25,7 @@ Reference: https://www.pinterest.com/pin/1100919071902025873/ . Adapt its image-
 ## Current color authority
 
 The user's 13 November food-app screenshot supersedes every earlier green palette instruction. Brand colors are now charcoal #151210, cocoa surfaces #26211e, amber #ffad4f, warm cream text #fff4e9 and taupe secondary text #d0bba8 in dark mode. Light mode uses warm ivory #f6f0e9, cream surfaces #fffaf4, dark brown #2b211b and burnt orange #a84508. Use dark labels on amber actions, white labels on burnt-orange actions. All nine workspaces, authentication, settings, cards, badges and navigation use these shared tokens. Keep the existing accessories pattern neutral and retain layouts and product behavior. Green is no longer a brand or decorative accent.
+
+## Frosted surfaces
+
+User explicitly requested the reference's glass effect after the amber palette change. Use translucent cocoa or ivory surfaces with 12–24px backdrop blur on navigation, controls and panels. Keep amber primary actions solid, drawers nearly opaque, text fully opaque, and the existing pattern visible softly through glass. Unsupported browsers and reduced-transparency users retain solid surfaces.
