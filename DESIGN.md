@@ -52,3 +52,5 @@ The visible background pause/play button was removed at the user's request. Keep
 
 ## Sharper light theme — November 13
 Light mode uses mint-white ground #f6faf7, forest text #123c2b, secondary text #466052, clear field boundaries #819b8a and deep-green primary actions #175c3b with white labels. Headings use 600 weight. Keep dark palette values unchanged. Render the background canvas at up to 2× device scale and increase its light-theme opacity for definition.
+
+Dark mode uses near-black ground (#080c0a), charcoal green surfaces (#111a15), forest elevated surfaces, and lime actions. This palette applies across all workspaces; light mode remains unchanged.
