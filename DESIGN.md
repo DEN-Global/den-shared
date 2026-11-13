@@ -10,9 +10,7 @@ Light theme: ground/surface #ffffff, ink #15251c, muted #526359, border #7d9686,
 
 ## Hero and media
 
-The supplied source is https://strvid.nyc3.cdn.digitaloceanspaces.com/motionsite/hero_green_energy.mp4 . A local 960px silent loop and poster are served from each workspace. The media is explicitly labeled Community illustration, with a play/pause control. Reduced motion and data saver start still. Pause offscreen and when the document is hidden. The reference's bright media stage is retained in dark mode so the landscape stays clear. There is no full-page photo, statue, spotlight mask, character field or sound.
-
-Discovery pairs existing DEN copy/actions with the illustrative media in an even split. Sign-in places the same media below the story alongside the account form. Pet care uses the same visual system and illustration. Mobile stacks content without horizontal overflow. Operational pages keep compact tables, forms, permissions, feedback and existing actions.
+The supplied floating-island loop is now a fixed full-viewport background on every route, as requested in the user's 13 November screencast. One shared video and local poster are served per workspace. Light mint and dark black-green overlays protect text contrast; operational cards and forms retain solid surfaces. Remove duplicate illustration cards. Keep a global play/pause control, start still for reduced motion/data saver, and pause while the document is hidden. No sound. Source: https://strvid.nyc3.cdn.digitaloceanspaces.com/motionsite/hero_green_energy.mp4 .
 
 ## Product boundaries
 
