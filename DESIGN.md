@@ -8,9 +8,9 @@ Use an open, balanced split composition, white grounds, generous whitespace and 
 
 Light theme: ground/surface #ffffff, ink #15251c, muted #526359, border #7d9686, pale #edf6ef, accent #087c40, primary action #1d6b38 with white text. Dark theme: black-green ground #070f0b, forest surface #11251a, ink #f0f8f2, muted #b7cbbc, border #577b62, pale #1c3c28, accent/action #60e89b with dark text #082a16. Maintain visible field boundaries, keyboard focus and semantic status colors.
 
-## Hero and media
+## Background and media
 
-The supplied floating-island loop is now a fixed full-viewport background on every route, as requested in the user's 13 November screencast. One shared video and local poster are served per workspace. Light mint and dark black-green overlays protect text contrast; operational cards and forms retain solid surfaces. Remove duplicate illustration cards. Keep a global play/pause control, start still for reduced motion/data saver, and pause while the document is hidden. No sound. Source: https://strvid.nyc3.cdn.digitaloceanspaces.com/motionsite/hero_green_energy.mp4 .
+The latest user-selected reference is https://www.pinterest.com/pin/935763628849390732/ : cream stationery-style linework of shopping accessories. Use its locally served accessories-pattern.jpg across every page. Light theme uses warm cream grounds, ivory surfaces, green actions, and a low-contrast pattern. Dark theme uses black-green grounds, forest panels, and subdued pale-green linework. Keep functional panels opaque and text readable. This static pattern replaces the floating island animation and its playback button. Do not repeat illustration cards. Preserve responsive layouts and existing type hierarchy.
 
 ## Product boundaries
 
