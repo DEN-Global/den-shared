@@ -45,3 +45,7 @@ The user's latest reference https://www.pinterest.com/pin/884816658057044922/ su
 ## Dark-only appearance
 
 User requested removal of light mode. Force dark before first paint regardless of saved or system preferences. Remove theme controls and the Settings Appearance panel across all workspaces. Preserve charcoal/amber glass design and map dark style.
+
+## Demo wallet
+
+Wallet offers simulated deposits, transfers to active DEN accounts by email, and withdrawals without bank details. All actions use review and confirmation, UUID idempotency keys and explicit demo labels. Demo balances and transaction history are separated from other recorded ledger entries by the reserved DEN demo reference prefix. Currencies remain separate; no conversion. Header displays Demo wallet and refreshes after successful operations. Real payments, bank payouts and card collection remain disabled.
