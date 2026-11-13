@@ -49,3 +49,6 @@ User explicitly rejected letter scrambling, separate sphere, prominent title and
 The item animation is the full sign-in background, extending behind both columns, with transparent form surroundings and readable field surfaces. Add a Forgot password entry with request/code/new-password states. Use live API readiness to explain unavailable email delivery. Never claim that a reset code was sent when no sender is configured.
 
 The visible background pause/play button was removed at the user's request. Keep the decorative animation unobtrusive and continue honoring the system reduced-motion preference.
+
+## Sharper light theme — November 13
+Light mode uses mint-white ground #f6faf7, forest text #123c2b, secondary text #466052, clear field boundaries #819b8a and deep-green primary actions #175c3b with white labels. Headings use 600 weight. Keep dark palette values unchanged. Render the background canvas at up to 2× device scale and increase its light-theme opacity for definition.
