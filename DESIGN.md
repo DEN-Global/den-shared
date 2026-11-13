@@ -60,3 +60,5 @@ The user selected the classical statue from the supplied MotionSite AXION prompt
 
 ## Fruit-market imagery — 13 November 2026
 User requested the fruit-shop Pinterest search direction in place of the statue. Replaced all active statue references with Josefin’s assorted fruit market photograph: https://unsplash.com/photos/assorted-fruits-on-display-DJWa4FWXDG4 . Pinterest search and pin 368380444545484457 were reviewed for direction; the deployed image comes from the linked Unsplash source. Keep the current layout and spotlight interaction, now revealing a brighter natural-color version of the same aligned photo through CSS. Preserve green accents and dark text fades for legibility.
+
+Dark refinement: black ground #040a07, brighter forest surfaces #10241a, distinct elevated green #1b3c29, readable green borders #4d705b, emerald actions #2bf5a5, and richer natural fruit imagery. Light theme and layout stay unchanged.
