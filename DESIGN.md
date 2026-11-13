@@ -29,3 +29,5 @@ The user's 13 November food-app screenshot supersedes every earlier green palett
 ## Frosted surfaces
 
 User explicitly requested the reference's glass effect after the amber palette change. Use translucent cocoa or ivory surfaces with 12–24px backdrop blur on navigation, controls and panels. Keep amber primary actions solid, drawers nearly opaque, text fully opaque, and the existing pattern visible softly through glass. Unsupported browsers and reduced-transparency users retain solid surfaces.
+
+The user's enlarged glassmorphism reference calls for stronger depth: translucent charcoal surfaces, warm amber illumination behind the glass, thin bright edges, subtle inset highlights, 20px panel corners and soft offset shadows. Reduce the old accessories pattern in dark mode so glass and content lead. Amber actions may use a restrained warm gradient. Keep reduced-transparency fallback solid.
