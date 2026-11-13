@@ -1,0 +1,5 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {accuracyArea,validMapPoint} from '../src/map-geometry.js';
+test('map accepts valid GPS and rejects unsupported or malformed coordinates',()=>{const p={latitude:6.4,longitude:3.3,accuracyMeters:20};assert(validMapPoint(p));for(const bad of [{latitude:NaN},{latitude:90},{longitude:181},{accuracyMeters:-1},{accuracyMeters:10001}])assert.equal(validMapPoint({...p,...bad}),false);assert.equal(validMapPoint(null),false);});
+test('accuracy polygon closes around reported GPS with requested radius',()=>{const p={latitude:6.4,longitude:3.3,accuracyMeters:100};const data=accuracyArea(p),ring=data.geometry.coordinates[0];assert.equal(ring.length,65);assert(Math.abs(ring[0][0]-ring.at(-1)[0])<1e-10);assert(Math.abs(ring[0][1]-ring.at(-1)[1])<1e-10);for(const [lng,lat] of ring){const dLat=(lat-p.latitude)*Math.PI/180,dLng=(lng-p.longitude)*Math.PI/180;const a=Math.sin(dLat/2)**2+Math.cos(lat*Math.PI/180)*Math.cos(p.latitude*Math.PI/180)*Math.sin(dLng/2)**2;assert(Math.abs(6371008.8*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))-100)<.001);}assert.throws(()=>accuracyArea({...p,longitude:999}));});
