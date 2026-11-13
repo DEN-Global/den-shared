@@ -39,3 +39,5 @@ Latest user background reference: https://www.pinterest.com/pin/4683040612710349
 ## Current marketplace background
 
 The latest user reference https://www.pinterest.com/pin/355151120640433252/ supersedes the glass sculpture. Use its locally served still poster marketplace-background.jpg: floating phone and shopping products, illustrative rather than actual DEN inventory. Align to the right on desktop and center on mobile. Warm sepia tint, ivory light overlay and charcoal dark overlay match DEN's amber glass UI. Retain existing layouts, glass surfaces and brand palette.
+
+The user's latest reference https://www.pinterest.com/pin/884816658057044922/ supersedes the floating fashion-phone scene. marketplace-background.jpg now contains the selected shopping-cart-on-phone still with colorful bokeh. Fill the viewport with cover sizing, preserve the cart near the central focal area, and maintain ivory/charcoal readability overlays and amber glass UI.
