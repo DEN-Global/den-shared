@@ -1,4 +1,4 @@
-# DEN Global — Green Community UI
+# DEN Global — Amber & Charcoal UI
 
 The user's GreenFuture / Green Energy specification supplied on 13 November 2026 is the current visual reference. Adapt its design to DEN; retain DEN's name, content, products and permissions. Energy services, environmental claims and GreenFuture navigation are not DEN product facts.
 
@@ -21,3 +21,7 @@ Preserve Supabase email-code registration and its live readiness flags, the sepa
 ## Business Manager catalog
 
 Reference: https://www.pinterest.com/pin/1100919071902025873/ . Adapt its image-led shopping catalog to DEN's green identity: compact storefront profile, prominent product search, stock-filter pills with real counts, responsive product-photo cards with price, stock and existing edit action. No invented products, discounts, ratings or sales metrics. Keep registration, approval gating and product editing intact.
+
+## Current color authority
+
+The user's 13 November food-app screenshot supersedes every earlier green palette instruction. Brand colors are now charcoal #151210, cocoa surfaces #26211e, amber #ffad4f, warm cream text #fff4e9 and taupe secondary text #d0bba8 in dark mode. Light mode uses warm ivory #f6f0e9, cream surfaces #fffaf4, dark brown #2b211b and burnt orange #a84508. Use dark labels on amber actions, white labels on burnt-orange actions. All nine workspaces, authentication, settings, cards, badges and navigation use these shared tokens. Keep the existing accessories pattern neutral and retain layouts and product behavior. Green is no longer a brand or decorative accent.
