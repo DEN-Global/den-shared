@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "inter",
+        "createdAt": "2026-11-16T07:59:36.800Z",
+        "reason": "Agent verified: legacy Inter family names are the same intentional Inter body typeface documented as self-hosted DEN Inter in DESIGN.md; no new font introduced."
+      }
+    ]
+  }
+}

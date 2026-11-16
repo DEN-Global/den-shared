@@ -39,7 +39,11 @@
         "name": "wide-catalog",
         "value": "1550px"
       }
-    ]
+    ],
+    "fontAliases": {
+      "Inter": "DEN Inter"
+    },
+    "sourceDocumentSha256": "0a8f11c17971a11d6b48377cf1339402b0b80180f92088d1f3ff12d57fb1bad6"
   },
   "components": [
     {

@@ -18,7 +18,7 @@ typography:
     letterSpacing: "-0.03em"
     lineHeight: 1.15
   body:
-    fontFamily: "DEN Inter, sans-serif"
+    fontFamily: "DEN Inter, Inter, sans-serif"
     fontWeight: 400
     lineHeight: 1.65
 rounded:
@@ -49,7 +49,7 @@ Black-blue grounds, white text, cool blue secondary text, bright blue actions an
 
 ## Typography
 
-Self-hosted Inter for UI and Space Grotesk for headings and DEN. Desktop page headings 30–46px, phone 30px. Auth story 40–64px. At 780px and below, all input, select and textarea text uses 16px with an explicit override to avoid automatic iOS zoom. Keep tabular numerals in financial and operational data.
+The legacy CSS family name `Inter` and the locally hosted `DEN Inter` are intentional aliases of the same body typeface, not separate brand fonts. Self-hosted Inter for UI and Space Grotesk for headings and DEN. Desktop page headings 30–46px, phone 30px. Auth story 40–64px. At 780px and below, all input, select and textarea text uses 16px with an explicit override to avoid automatic iOS zoom. Keep tabular numerals in financial and operational data.
 
 ## Layout
 
