@@ -65,6 +65,8 @@ Static blue reflective geometry behind the workspace replaces the shopping photo
 
 ## Components
 
+Every workspace loads the shared stylesheet as a blocking head link before its app renders, so loading states use the same blue/black palette. The decorative renderer reuses that stylesheet and mounts once.
+
 The original vector circuitry opening is inspired by https://www.pinterest.com/pin/913667843169225135/. It resolves to DEN Global, lasts 2.4 seconds, offers Skip intro, plays once per tab session, and is omitted for reduced motion. It does not depend on or delay API loading. Session storage suppresses replay on same-origin navigation and sign-in redirects in a tab session. If storage is unavailable, suppression lasts only within the current document.
 
 Primary buttons render an action-start to action-end gradient; the primary token is the action-control base value. Buttons have distinct primary, secondary, disabled and keyboard focus states. Empty, pending and locked states retain real product copy. Pet care and role choice remain in Settings. The wallet keeps server-provided readiness and never implies unavailable funding or payouts are enabled.
