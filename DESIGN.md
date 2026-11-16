@@ -1,55 +1,74 @@
-# DEN Global — Amber & Charcoal UI
+---
+name: DEN Global — Blue Liquid Glass
+description: One network. Every journey.
+colors:
+  primary: "#2875f5"
+  action-start: "#2769df"
+  action-end: "#1b5cda"
+  accent: "#82b6ff"
+  ground: "#050912"
+  surface: "#101d32"
+  ink: "#f5f8ff"
+  muted: "#b6c8e2"
+  line: "#3f587b"
+typography:
+  display:
+    fontFamily: "DEN Space, sans-serif"
+    fontWeight: 700
+    letterSpacing: "-0.03em"
+    lineHeight: 1.15
+  body:
+    fontFamily: "DEN Inter, sans-serif"
+    fontWeight: 400
+    lineHeight: 1.65
+rounded:
+  control: "12px"
+  panel: "16px"
+spacing:
+  small: "8px"
+  medium: "16px"
+  large: "24px"
+components:
+  button-primary:
+    backgroundColor: "linear-gradient(180deg, {colors.action-start}, {colors.action-end})"
+    textColor: "#ffffff"
+    rounded: "{rounded.control}"
+    padding: "12px 20px"
+---
+# DEN Global
 
-The user's GreenFuture / Green Energy specification supplied on 13 November 2026 is the current visual reference. Adapt its design to DEN; retain DEN's name, content, products and permissions. Energy services, environmental claims and GreenFuture navigation are not DEN product facts.
+## Overview
 
-## Visual direction
+**Creative North Star: "Blue Liquid Glass Network"**
 
-Use an open, balanced split composition, white grounds, generous whitespace and emerald actions. Inter is the UI/body face; Space Grotesk 700 is the display and brand face. Hero headings scale from 38px on mobile to 54px on desktop with a 1.1 line height. Controls use 8–9px corners and panels use 14px corners. Keep DEN's four-square mark and the existing sidebar, mobile navigation and Settings beside Wallet.
+The owner's 16 November 2026 reference, https://www.pinterest.com/pin/1053420169113254911/, supersedes the earlier green and amber identities. Adapt its blue liquid-glass marketplace to DEN's existing shopping, delivery and operational workflows. Cars and automotive claims in the reference are not DEN content. All nine workspaces share this system; dark-only appearance remains.
 
-Light theme: ground/surface #ffffff, ink #15251c, muted #526359, border #7d9686, pale #edf6ef, accent #087c40, primary action #1d6b38 with white text. Dark theme: black-green ground #070f0b, forest surface #11251a, ink #f0f8f2, muted #b7cbbc, border #577b62, pale #1c3c28, accent/action #60e89b with dark text #082a16. Maintain visible field boundaries, keyboard focus and semantic status colors.
+## Colors
 
-## Background and media
+Black-blue grounds, white text, cool blue secondary text, bright blue actions and blue-white glass edges. Semantic warnings and errors retain distinct colors and explicit text. Never recolor statuses as decorative brand accents.
 
-The latest user-selected reference is https://www.pinterest.com/pin/935763628849390732/ : cream stationery-style linework of shopping accessories. Use its locally served accessories-pattern.jpg across every page. Light theme uses warm cream grounds, ivory surfaces, green actions, and a low-contrast pattern. Dark theme uses black-green grounds, forest panels, and subdued pale-green linework. Keep functional panels opaque and text readable. This static pattern replaces the floating island animation and its playback button. Do not repeat illustration cards. Preserve responsive layouts and existing type hierarchy.
+## Typography
 
-## Product boundaries
+Self-hosted Inter for UI and Space Grotesk for headings and DEN. Desktop page headings 30–46px, phone 30px. Auth story 40–64px. At 780px and below, all input, select and textarea text uses 16px with an explicit override to avoid automatic iOS zoom. Keep tabular numerals in financial and operational data.
 
-Apply across Consumer, Manager, Rider, Dispatch, Admin, Warehouse, Pets, Transport and Shipment. Pet care opens from Settings; role selection remains in Settings and is permanent only after explicit confirmation. Do not silently choose a role. Business Manager access selection remains unconfirmed in this session.
+## Layout
 
-Preserve Supabase email-code registration and its live readiness flags, the separate password-recovery readiness, protected role access, foreground rider GPS and MapLibre/OpenFreeMap. Keep attribution, simulation/stale labels, map consent, stop-sharing controls and map CSP rules. Live payments, real carrier bookings and international trade remain disabled. Never invent orders, GPS positions, ETAs or operating statistics to fill a design.
+224px desktop rail, 80px header, 36px content inset. At 780px and below, show a floating, horizontally scrollable bottom navigation with safe-area padding. Keep Wallet, Settings and Profile in the top action row. Preserve access to every existing destination. Use single-column working areas and internally scrolling wide tables. Main controls target 44px minimum; phone workspace links and manager filters also enforce a 44px minimum. Auth uses a desktop split and a compact stacked phone form. Installable web app metadata uses the same black-blue shell color.
 
-## Business Manager catalog
+## Elevation & Depth
 
-Reference: https://www.pinterest.com/pin/1100919071902025873/ . Adapt its image-led shopping catalog to DEN's green identity: compact storefront profile, prominent product search, stock-filter pills with real counts, responsive product-photo cards with price, stock and existing edit action. No invented products, discounts, ratings or sales metrics. Keep registration, approval gating and product editing intact.
+Static blue reflective geometry behind the workspace replaces the shopping photo. Navigation and elevated panels use a restrained 18px backdrop blur and translucent navy with white-blue keylines. Working text remains opaque; input fields and drawers are nearly opaque. Avoid nested blur and continuous background animation. Reduced-transparency makes the explicitly listed surfaces opaque. General cards remain opaque without backdrop-filter support; directly declared translucent navigation and other surfaces retain alpha backgrounds without blur.
 
-## Current color authority
+## Shapes
 
-The user's 13 November food-app screenshot supersedes every earlier green palette instruction. Brand colors are now charcoal #151210, cocoa surfaces #26211e, amber #ffad4f, warm cream text #fff4e9 and taupe secondary text #d0bba8 in dark mode. Light mode uses warm ivory #f6f0e9, cream surfaces #fffaf4, dark brown #2b211b and burnt orange #a84508. Use dark labels on amber actions, white labels on burnt-orange actions. All nine workspaces, authentication, settings, cards, badges and navigation use these shared tokens. Keep the existing accessories pattern neutral and retain layouts and product behavior. Green is no longer a brand or decorative accent.
+12px controls, 16px panels, 20px mobile navigation. Keep QR codes on white. Preserve map attribution and native map interactions.
 
-## Frosted surfaces
+## Components
 
-User explicitly requested the reference's glass effect after the amber palette change. Use translucent cocoa or ivory surfaces with 12–24px backdrop blur on navigation, controls and panels. Keep amber primary actions solid, drawers nearly opaque, text fully opaque, and the existing pattern visible softly through glass. Unsupported browsers and reduced-transparency users retain solid surfaces.
+The original vector circuitry opening is inspired by https://www.pinterest.com/pin/913667843169225135/. It resolves to DEN Global, lasts 2.4 seconds, offers Skip intro, plays once per tab session, and is omitted for reduced motion. It does not depend on or delay API loading. Session storage suppresses replay on same-origin navigation and sign-in redirects in a tab session. If storage is unavailable, suppression lasts only within the current document.
 
-The user's enlarged glassmorphism reference calls for stronger depth: translucent charcoal surfaces, warm amber illumination behind the glass, thin bright edges, subtle inset highlights, 20px panel corners and soft offset shadows. Reduce the old accessories pattern in dark mode so glass and content lead. Amber actions may use a restrained warm gradient. Keep reduced-transparency fallback solid.
+Primary buttons render an action-start to action-end gradient; the primary token is the action-control base value. Buttons have distinct primary, secondary, disabled and keyboard focus states. Empty, pending and locked states retain real product copy. Pet care and role choice remain in Settings. The wallet keeps server-provided readiness and never implies unavailable funding or payouts are enabled.
 
-## Glass sculpture background
+## Do's and Don'ts
 
-Latest user background reference: https://www.pinterest.com/pin/468304061271034900/ (Jon Kuhn glass art, Habatat Galleries). Locally serve its still poster as glass-art-background.jpg behind every route, replacing the accessories pattern. Preserve the complete sculpture with contain-style height sizing, place it right of center on desktop and center it on mobile. Dark overlay protects light text; ivory overlay supports light mode. Use https://www.pinterest.com/search/pins/?q=glass%20design%20ui%20app for frosted panels and delicate reflective borders, retaining amber brand actions. Cart drawers use stronger glass for readable checkout content.
-
-## Current marketplace background
-
-The latest user reference https://www.pinterest.com/pin/355151120640433252/ supersedes the glass sculpture. Use its locally served still poster marketplace-background.jpg: floating phone and shopping products, illustrative rather than actual DEN inventory. Align to the right on desktop and center on mobile. Warm sepia tint, ivory light overlay and charcoal dark overlay match DEN's amber glass UI. Retain existing layouts, glass surfaces and brand palette.
-
-The user's latest reference https://www.pinterest.com/pin/884816658057044922/ supersedes the floating fashion-phone scene. marketplace-background.jpg now contains the selected shopping-cart-on-phone still with colorful bokeh. Fill the viewport with cover sizing, preserve the cart near the central focal area, and maintain ivory/charcoal readability overlays and amber glass UI.
-
-## Dark-only appearance
-
-User requested removal of light mode. Force dark before first paint regardless of saved or system preferences. Remove theme controls and the Settings Appearance panel across all workspaces. Preserve charcoal/amber glass design and map dark style.
-
-## Demo wallet
-
-Wallet offers simulated deposits, transfers to active DEN accounts by email, and withdrawals without bank details. All actions use review and confirmation, UUID idempotency keys and explicit demo labels. Demo balances and transaction history are separated from other recorded ledger entries by the reserved DEN demo reference prefix. Currencies remain separate; no conversion. Header displays Demo wallet and refreshes after successful operations. Real payments, bank payouts and card collection remain disabled.
-
-## Wallet transition
-
-User removed the demo wallet. Remove simulated actions and balances from UI and API responses, disable all wallet writes until a real provider is integrated, and retain historical demo rows outside recorded balances. Header says Wallet. Provider country and business account are pending user input.
+Preserve authentication, role permissions, business data, foreground GPS consent and stale labels, MapLibre/OpenFreeMap attribution, and existing feature locks. No invented inventory, ratings, metrics or ETAs. This UI release does not activate payments, apply pending migrations or unlock international bookings. Keep functional routes and product facts unchanged.

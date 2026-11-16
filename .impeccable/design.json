@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T00:00:00Z",
+  "title": "Design System: DEN Global \u2014 Blue Liquid Glass",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "glass-shadow",
+        "value": "0 16px 40px #0005,inset 0 1px 0 #e3efff1c",
+        "purpose": "Elevated workspace panels."
+      }
+    ],
+    "motion": [
+      {
+        "name": "opening",
+        "value": "2.4s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Once per same-origin tab session; reduced motion omits intro; storage failure falls back to current document only."
+      },
+      {
+        "name": "control-transition",
+        "value": ".18s",
+        "purpose": "Primary background and transform."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "catalog-phone",
+        "value": "600px"
+      },
+      {
+        "name": "phone",
+        "value": "780px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-catalog",
+        "value": "1550px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Shared primary button styling.",
+      "html": "<button class=\"ds-primary\">Continue</button>",
+      "css": ".ds-primary{background:linear-gradient(180deg,#2769df,#1b5cda);color:#fff;border:1px solid #70a9ff;border-radius:12px;min-height:46px;padding:12px 20px;font:600 13px \"DEN Inter\",sans-serif;box-shadow:inset 0 1px #ffffff3d,0 6px 18px #001a4533;transition:background .18s,transform .18s}.ds-primary:hover{background:#2769df}.ds-primary:active{transform:translateY(1px)}.ds-primary:disabled{opacity:.55;cursor:not-allowed}:is(button,a,input):focus-visible{outline:2px solid #b0d3ff;outline-offset:4px}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "description": "Shared secondary button styling.",
+      "html": "<button class=\"ds-secondary\">View details</button>",
+      "css": ".ds-secondary{background:#162c485c;color:var(--ink,#f5f8ff);border:1px solid var(--glass-line,rgba(167,201,255,.28));border-radius:12px;min-height:44px;padding:10px 16px;font:12px \"DEN Inter\",sans-serif}.ds-secondary:hover{background:var(--pale,#172d4c);border-color:var(--accent,#82b6ff)}.ds-secondary:active{transform:translateY(1px)}:is(button,a,input):focus-visible{outline:2px solid #b0d3ff;outline-offset:4px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "description": "Shared text field styling.",
+      "html": "<input class=\"ds-input\" aria-label=\"Search\" placeholder=\"Search\">",
+      "css": ".ds-input{background:#081528;border:1px solid #46648a;border-radius:10px;color:var(--ink,#f5f8ff);min-height:44px;font:14px \"DEN Inter\",sans-serif}.ds-input::placeholder{color:var(--muted,#b6c8e2)}@media(max-width:780px){.ds-input{font-size:16px!important}}:is(button,a,input):focus-visible{outline:2px solid #b0d3ff;outline-offset:4px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Shared navigation styling.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#overview\" aria-current=\"page\">Overview</a><a href=\"#activity\">Activity</a></nav>",
+      "css": ".ds-nav{display:grid;gap:5px}.ds-nav a{display:flex;align-items:center;min-height:46px;border-radius:12px;padding:0 12px;font:12px \"DEN Inter\",sans-serif;color:var(--muted,#b6c8e2);text-decoration:none}.ds-nav a[aria-current]{background:linear-gradient(120deg,#24559c70,#1d3b6350);color:#fff}.ds-nav a:hover{background:var(--pale,#172d4c);color:#fff}:is(button,a,input):focus-visible{outline:2px solid #b0d3ff;outline-offset:4px}"
+    },
+    {
+      "name": "Glass Panel",
+      "kind": "card",
+      "description": "Shared glass panel styling.",
+      "html": "<section class=\"ds-panel\">Workspace content</section>",
+      "css": ".ds-panel{padding:24px;background:var(--surface,#101d32);color:var(--ink,#f5f8ff);border:1px solid var(--glass-line,rgba(167,201,255,.28));border-radius:16px;box-shadow:var(--glass-shadow,0 16px 40px #0005,inset 0 1px 0 #e3efff1c);font:14px \"DEN Inter\",sans-serif}@supports(backdrop-filter:blur(1px)){.ds-panel{background:linear-gradient(145deg,#b7d7ff0c,transparent 50%),var(--glass,rgba(15,30,52,.76));backdrop-filter:blur(18px) saturate(1.12)}}@media(prefers-reduced-transparency:reduce){.ds-panel{background:var(--surface,#101d32);backdrop-filter:none}}:is(button,a,input):focus-visible{outline:2px solid #b0d3ff;outline-offset:4px}"
+    },
+    {
+      "name": "Selected Filter",
+      "kind": "chip",
+      "description": "Shared selected filter styling.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">All</button>",
+      "css": ".ds-chip{min-height:40px;padding:9px 15px;background:#215ebd;color:#fff;border:1px solid #82b6ff;border-radius:24px;font:12px \"DEN Inter\",sans-serif}.ds-chip:active{transform:translateY(1px)}:is(button,a,input):focus-visible{outline:2px solid #b0d3ff;outline-offset:4px}@media(max-width:780px){.ds-chip{min-height:44px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Blue Liquid Glass Network",
+    "overview": "The owner's 16 November 2026 reference, https://www.pinterest.com/pin/1053420169113254911/, supersedes the earlier green and amber identities. Adapt its blue liquid-glass marketplace to DEN's existing shopping, delivery and operational workflows. Cars and automotive claims in the reference are not DEN content. All nine workspaces share this system; dark-only appearance remains.\n",
+    "keyCharacteristics": [],
+    "rules": [],
+    "dos": [],
+    "donts": []
+  }
+}
